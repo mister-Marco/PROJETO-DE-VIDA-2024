@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Chau+Philomene+One&display=swap');
+
+:root{
+    --cor-de-fundo: rgba(12, 5, 97, 0.671);
+    --azul: #00C2FF;
+    --azul-claro: #d6e1ff;
+    --branco: #FFFFFF;
+    --botao-ativo: #403D65;
+    --botão-inativo:rgba(62, 75, 144, 0.5);
+    --texto-fundo:#6FFF57;
+    --verde: #6FFF57;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--azul-claro);
+    font-family: "Chakra Petch", sans-serif;
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span{
+    color: var(--azul);
+}
+
+.botao{
+    font-family: "Chakra Petch", sans-serif;
+    background-color: var(--botão-inativo);
+    color: var(--azul-claro);
+
+}
