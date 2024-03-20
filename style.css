@@ -6,8 +6,8 @@
     --azul-claro: #d6e1ff;
     --branco: #FFFFFF;
     --botao-ativo: #403D65;
-    --botão-inativo:rgba(62, 75, 144, 0.5);
-    --texto-fundo:#6FFF57;
+    --botao-inativo:rgba(49, 58, 105, 0.5);
+    --texto-fundo:rgba(49, 58, 105, 0.5);
     --verde: #6FFF57;
 
 }
@@ -55,12 +55,37 @@ body{
     border-top: none;
 }
 .botoes {
-    display: block;
+    display:block;
 }
 
 .ativo{
+    background-color: var(--botao-inativo);
+    border-bottom: 4px solid var(--azul);
+}
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--azul);
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+}
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--azul);
+    text-transform: uppercase;
 }
 
 
@@ -85,6 +110,7 @@ body{
         border-radius: 0 40px 0 0;
     }
 }
+
 
 
 
