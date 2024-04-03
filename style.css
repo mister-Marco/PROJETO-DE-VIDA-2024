@@ -89,8 +89,9 @@ body{
 }
 
 .contador{
-    font-size: 20px;
-    text-align: center;
+    display:flex;
+    justify-content:center;
+    
 }
 
 
